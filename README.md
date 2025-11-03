@@ -1,5 +1,3 @@
-# i3withsuckless
-
 Required tools:
 1. rofi ("https://github.com/adi1090x/polybar-themes.git")
 2. polybar ("https://github.com/adi1090x/polybar-themes.git")

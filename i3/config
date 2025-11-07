@@ -152,7 +152,7 @@ bindsym $mod+Shift+0 move container to workspace number $ws10
 #autostart workspaces
 #exec i3-msg 'workspace 1; exec st'; sleep 2; i3-msg 'workspace 1; exec st --hold -e bash -c "tty-clock -D -c -C7"'; sleep 1; i3-msg 'workspace 1; exec st --hold -e bash -c "htop"';
 
-exec i3-msg 'workspace 1; exec st'; sleep 4; i3-msg 'workspace 1; exec st -e bash -c "tty-clock -D -c -C7"'; sleep 3; i3-msg 'workspace 1; exec st -e bash -c "htop"';
+exec i3-msg 'workspace 1; exec st -e bash -c "nvim"'; sleep 4; i3-msg 'workspace 1; exec st -e bash -c "tty-clock -D -c -C7"'; sleep 3; i3-msg 'workspace 1; exec st -e bash -c "htop"';
 
 
 
@@ -236,10 +236,10 @@ gaps outer 15
 
 
 #background apps
-exec_always feh --bg-fill ~/.config/wallpapers/dark-main/katana.jpg
+exec_always feh --bg-fill ~/.config/wallpapers/happy/happy7.jpg
 #exec_always --no-startup-id killall polybar
 #exec_always --no-startup-id sleep 1 && polybar main &
-exec_always --no-startup-id ~/.config/polybar/grayblocks/launch.sh
+exec_always --no-startup-id ~/.config/polybar/forest/launch.sh
 exec_always --no-startup-id xcompmgr -c -t-5 -l-5 -r4.2 -o.55 -f -D 2 &
 exec_always --no-startup-id autotiling
 

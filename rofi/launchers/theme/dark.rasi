@@ -69,7 +69,9 @@ listbox {
 inputbar {
     enabled:                     true;
     spacing:                     0px;
-    padding:                     100px 40px;
+    padding:                     80px 40px;
+    border:                      30px; /*Optional addons*/
+    border-radius:               30px; /*Optional addons*/
     background-color:            transparent;
     background-image:            url("~/.config/wallpapers/dark-main/stare-girl.jpg", height);
     text-color:                  @foreground;

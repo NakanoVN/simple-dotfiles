@@ -69,9 +69,11 @@ listbox {
 inputbar {
     enabled:                     true;
     spacing:                     0px;
-    padding:                     100px 40px;
+    padding:                     80px 40px;
+    border:                      30px; /*Optional addons*/
+    border-radius:               30px; /*Optional addons*/
     background-color:            transparent;
-    background-image:            url("~/.config/wallpaper/wallpaper8.jpg", height);
+    background-image:            url("~/.config/wallpapers/happy/happy1.jpg", height);
     text-color:                  @foreground;
     orientation:                 horizontal;
     children:                    [ "textbox-prompt-colon", "entry" ];

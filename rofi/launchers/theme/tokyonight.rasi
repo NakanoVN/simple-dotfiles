@@ -59,7 +59,7 @@ mainbox {
 
 listbox {
     spacing:                     10px;
-    padding:                     10px;
+    padding:                     10px 10px 10px 10px;
     background-color:            transparent;
     orientation:                 vertical;
     children:                    [ "message", "listview", "mode-switcher" ];
@@ -69,7 +69,9 @@ listbox {
 inputbar {
     enabled:                     true;
     spacing:                     0px;
-    padding:                     100px 40px;
+    padding:                     80px 40px;
+    border:                      30px; /*Optional addons*/
+    border-radius:               30px; /*Optional addons*/
     background-color:            transparent;
     background-image:            url("~/.config/wallpapers/happy/happy4.jpg", height);
     text-color:                  @foreground;

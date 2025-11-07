@@ -8,12 +8,12 @@
 ## Available Styles
 #
 ## dark     blue     arc     catppuccin     tokyonight
-## light    neon     black   dracula    
+## light    neon     black   dracula
 
 dir="$HOME/.config/rofi/launchers/theme"
 theme='tokyonight'
 
 ## Run
 rofi \
-    -show drun \
-    -theme ${dir}/${theme}.rasi
+  -show drun \
+  -theme ${dir}/${theme}.rasi

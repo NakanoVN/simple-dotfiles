@@ -28,6 +28,12 @@
 
 #Install the rofi theme from this repo "https://github.com/adi1090x/rofi.git"
 
+#For rofi, if you want the image inside input bar to be full
+
+#just remove the border and border-radius inside inputbar line
+
+#and change the padding from 80px 40px to 100px 40px
+
 sorry for the messy code
 
 i don't have time to organize it
